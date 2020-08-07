@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .a1{
+      scroll-behavior: smooth;
+  }
+  .mainhead{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+
+  }
+  body{
+    height: 100%;
+    width: 100%;
+    background-color: #ddd9d4;
+    background-image: linear-gradient(141deg, #EC6F66 30%, #FFEDBC 41%, #414345 65%);
+    color: white;
+    opacity: 0.95;
+}
+.nameh{
+    font-family: Courier;
+    font-size: 200%;
+
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    
+}
+.footer-heading{
+    color: white;
+    text-decoration-color: white;
+    -moz-text-decoration-color: white;
+}
+.bottom{
+    color: whitesmoke;
+}
+.para{
+    color: rgb(14, 17, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 190%;
+    text-decoration: yellow;
+    text-shadow: #414345;
+}
+.lowerimage{
+    width:50px;
+    height: 50px;
+}
