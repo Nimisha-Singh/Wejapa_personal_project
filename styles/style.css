@@ -4,9 +4,10 @@ html {
   .a1{
       scroll-behavior: smooth;
   }
-  .mainhead{
+  .fead{
       font-family: Arial, Helvetica, sans-serif;
-      font-size: large;
+      font-size: 50px;
+      text-emphasis: bold;
 
   }
   body{
@@ -17,10 +18,11 @@ html {
     color: white;
     opacity: 0.95;
 }
-.nameh{
+/* .nameh{
     font-family: Courier;
     font-size: 200%;
-
+    margin-left: 30px;
+ */
 }
 .heading{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -38,11 +40,77 @@ html {
 .para{
     color: rgb(14, 17, 209);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 190%;
+    font-weight: 33px;
     text-decoration: yellow;
     text-shadow: #414345;
 }
 .lowerimage{
-    width:50px;
-    height: 50px;
+    width:60px;
+    height: 90px;
 }
+/* #main-img{
+    border: 10px #dcd8bf solid;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 545px;
+    margin-top:50px; 
+    width:230px;
+    animation: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    -webkit-animation: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} */
+.button-1{
+    margin-right: auto;
+    margin-left: 610px;
+    color: blueviolet;
+
+}
+.container1 {
+    position: relative;
+    width: 100%;
+    /* margin-left: 300px;
+    margin-top: 20px; */
+  }
+  
+  .image-top {
+    border: 10px #dcd8bf solid;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 545px;
+    margin-top: 45px; 
+    width:230px;
+    
+    display: block;
+  }
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .container1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
